@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body {
-    background-image: url('/color.png');
+    background-image: url('/blue.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +9,7 @@ body {
     overflow-y: auto;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
 }
 .search {
     text-align: center;
@@ -17,6 +19,7 @@ label {
     font-size: 35px;
     display: block;
     margin: 10px;
+    color: #ffffff;
 }
 input {
     padding: 17px 20px;
@@ -24,6 +27,7 @@ input {
     border: none;
     margin: 20px 0;
     font-size: 20px;
+    outline: none;
 }
 .all-users {
  
