@@ -1,0 +1,52 @@
+body {
+    background-image: url('/color.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.search {
+    text-align: center;
+    margin-top: 100px;
+}
+label {
+    font-size: 35px;
+    display: block;
+    margin: 10px;
+}
+input {
+    padding: 17px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.all-users {
+ 
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+   justify-content: center;
+}
+img {
+    display: block;
+    margin: 7px;
+    border-radius: 50%;
+}
+.user-content {
+    text-align: center;
+    margin: 30px;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+}
+a:hover {
+    color: blue;
+}
+    
