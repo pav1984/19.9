@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body {
-    background-image: url('/blue.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #5425EB;
     min-height: 100vh;
     height: auto;
     overflow-y: auto;
